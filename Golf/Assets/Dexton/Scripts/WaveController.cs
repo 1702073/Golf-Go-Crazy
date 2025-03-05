@@ -8,9 +8,9 @@ public class WaveController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i < waveData.enemycount; ++i)
+        for (int i = 0; i < waveData.enemyCount; ++i)
         {
-            Instantiate(waveData.enemypPerfab);
+            Instantiate(waveData.enemyPrefab);
         }
     }
 
